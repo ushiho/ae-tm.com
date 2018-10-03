@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c24a964f256be2977eef2faea1dc33a0",
+    "content-hash": "704cfafb4bac1f461590dc796c9e6cd9",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -4683,6 +4683,53 @@
                 "templating"
             ],
             "time": "2018-07-13T07:18:09+00:00"
+        },
+        {
+            "name": "webinv/bigdecimal",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webinv/php-library-bigdecimal.git",
+                "reference": "0f693643c6adbec3bf454a11a3929da7faafc820"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webinv/php-library-bigdecimal/zipball/0f693643c6adbec3bf454a11a3929da7faafc820",
+                "reference": "0f693643c6adbec3bf454a11a3929da7faafc820",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.1",
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Webinv\\Types\\BigDecimal\\": "src/Types/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Krzysztof Kardasz",
+                    "email": "krzysztof@kardasz.eu"
+                }
+            ],
+            "description": "BigDecimal Type",
+            "keywords": [
+                "bcmath",
+                "big",
+                "bigdecimal",
+                "decimal"
+            ],
+            "time": "2018-06-29T10:54:56+00:00"
         },
         {
             "name": "webmozart/assert",

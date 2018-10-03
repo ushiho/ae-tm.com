@@ -389,6 +389,9 @@
     "twig/twig": {
         "version": "v2.5.0"
     },
+    "webinv/bigdecimal": {
+        "version": "1.0.1"
+    },
     "webmozart/assert": {
         "version": "1.3.0"
     },
